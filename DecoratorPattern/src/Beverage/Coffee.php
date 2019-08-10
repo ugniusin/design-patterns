@@ -1,6 +1,6 @@
 <?php
 
-namespace DecoratorPattern;
+namespace DecoratorPattern\Beverage;
 
 class Coffee extends Beverage
 {
@@ -9,7 +9,8 @@ class Coffee extends Beverage
      */
     public function getDescription(): string
     {
-        return "It's cup of simple black coffee!\n";
+        return 'It is a brewed drink prepared from roasted coffee beans,' .
+            " the seeds of berries from certain Coffea species.\n";
     }
 
     /**

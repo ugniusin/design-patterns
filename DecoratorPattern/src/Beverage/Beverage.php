@@ -1,13 +1,13 @@
 <?php
 
-namespace DecoratorPattern;
+namespace DecoratorPattern\Beverage;
 
 abstract class Beverage
 {
     /**
      * @return string
      */
-    abstract public function getDescription(): string ;
+    abstract public function getDescription(): string;
 
     /**
      * @return float
