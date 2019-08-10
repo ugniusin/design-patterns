@@ -1,9 +1,9 @@
 <?php
 
-namespace Strategy;
+namespace StrategyPattern;
 
-use Strategy\FlyStrategy\FlyStrategy;
-use Strategy\QuackStrategy\QuackStrategy;
+use StrategyPattern\FlyStrategy\FlyStrategy;
+use StrategyPattern\QuackStrategy\QuackStrategy;
 
 class Duck implements CityDuck, WildDuck, ToyDuck
 {

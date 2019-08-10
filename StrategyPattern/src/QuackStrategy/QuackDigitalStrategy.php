@@ -1,6 +1,6 @@
 <?php
 
-namespace Strategy\QuackStrategy;
+namespace StrategyPattern\QuackStrategy;
 
 class QuackDigitalStrategy implements QuackStrategy
 {

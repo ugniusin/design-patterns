@@ -1,0 +1,14 @@
+{
+    "name": "ugnius/design-patterns",
+    "autoload": {
+        "psr-4": {
+            "StrategyPattern\\": "StrategyPattern/src/",
+            "StrategyPatternFramework\\": "StrategyPattern/framework/",
+            "ObserverPattern\\": "ObserverPattern/src/",
+            "ObserverPatternFramework\\": "ObserverPattern/framework/"
+        }
+    },
+    "require": {
+        "symfony/dependency-injection": "^4.3"
+    }
+}

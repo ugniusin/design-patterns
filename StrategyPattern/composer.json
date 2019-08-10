@@ -1,9 +1,0 @@
-{
-    "name": "ugnius/strategy-pattern",
-    "autoload": {
-        "psr-4": {"Strategy\\": "src/"}
-    },
-    "require": {
-        "symfony/dependency-injection": "^4.3"
-    }
-}

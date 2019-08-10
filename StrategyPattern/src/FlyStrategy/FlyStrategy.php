@@ -1,6 +1,6 @@
 <?php
 
-namespace Strategy\FlyStrategy;
+namespace StrategyPattern\FlyStrategy;
 
 interface FlyStrategy
 {

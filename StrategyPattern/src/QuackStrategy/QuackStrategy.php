@@ -1,6 +1,6 @@
 <?php
 
-namespace Strategy\QuackStrategy;
+namespace StrategyPattern\QuackStrategy;
 
 interface QuackStrategy
 {
