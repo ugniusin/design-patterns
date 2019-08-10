@@ -7,12 +7,12 @@ interface Observable
     /**
      * @param Observer $observer
      */
-    public function add(Observer $observer);
+    public function registerObserver(Observer $observer);
 
     /**
      * @param Observer $observer
      */
-    public function remove(Observer $observer);
+    public function unregisterObserver(Observer $observer);
 
-    public function notify();
+    public function notifyObservers();
 }
