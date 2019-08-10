@@ -5,7 +5,9 @@
             "StrategyPattern\\": "StrategyPattern/src/",
             "StrategyPatternFramework\\": "StrategyPattern/framework/",
             "ObserverPattern\\": "ObserverPattern/src/",
-            "ObserverPatternFramework\\": "ObserverPattern/framework/"
+            "ObserverPatternFramework\\": "ObserverPattern/framework/",
+            "DecoratorPattern\\": "DecoratorPattern/src/",
+            "DecoratorPatternFramework\\": "DecoratorPattern/framework/"
         }
     },
     "require": {
