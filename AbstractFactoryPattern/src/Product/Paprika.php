@@ -2,7 +2,7 @@
 
 namespace AbstractFactoryPattern\Product;
 
-class Paprika extends Product
+class Paprika extends Vegetable
 {
     /**
      * @return float

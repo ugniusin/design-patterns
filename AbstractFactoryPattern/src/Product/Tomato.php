@@ -2,7 +2,7 @@
 
 namespace AbstractFactoryPattern\Product;
 
-class Tomato extends Product
+class Tomato extends Vegetable
 {
     /**
      * @return float

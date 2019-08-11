@@ -2,7 +2,7 @@
 
 namespace AbstractFactoryPattern\Product;
 
-class Prosciutto extends Product
+class Prosciutto extends Meat
 {
     /**
      * @return float

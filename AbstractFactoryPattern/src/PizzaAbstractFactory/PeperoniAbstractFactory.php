@@ -2,36 +2,39 @@
 
 namespace AbstractFactoryPattern\PizzaAbstractFactory;
 
+use AbstractFactoryPattern\Product\Meat;
+use AbstractFactoryPattern\Product\Pad;
 use AbstractFactoryPattern\Product\Paprika;
-use AbstractFactoryPattern\Product\Product;
 use AbstractFactoryPattern\Product\Salami;
+use AbstractFactoryPattern\Product\Sauce;
 use AbstractFactoryPattern\Product\Tomato;
 use AbstractFactoryPattern\Product\TomatoSauce;
+use AbstractFactoryPattern\Product\Vegetable;
 use AbstractFactoryPattern\Product\WheatDoughPad;
 
 class PeperoniAbstractFactory extends PizzaAbstractFactory
 {
     /**
-     * @return Product
+     * @return Pad
      */
-    public function createPad(): Product
+    public function createPad(): Pad
     {
         return new WheatDoughPad();
     }
 
     /**
-     * @return Product
+     * @return Sauce
      */
-    public function createSauce(): Product
+    public function createSauce(): Sauce
     {
         return new TomatoSauce();
     }
 
     /**
      * @param string|null $vegetableName
-     * @return Product
+     * @return Vegetable
      */
-    public function createVegetable(string $vegetableName = null): Product
+    public function createVegetable(string $vegetableName = null): Vegetable
     {
         if ($vegetableName === 'paprika') {
             return new Paprika();
@@ -41,9 +44,9 @@ class PeperoniAbstractFactory extends PizzaAbstractFactory
     }
 
     /**
-     * @return Product
+     * @return Meat
      */
-    public function createMeat(): Product
+    public function createMeat(): Meat
     {
         return new Salami();
     }

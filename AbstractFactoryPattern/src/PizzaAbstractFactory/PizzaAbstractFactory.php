@@ -2,28 +2,31 @@
 
 namespace AbstractFactoryPattern\PizzaAbstractFactory;
 
-use AbstractFactoryPattern\Product\Product;
+use AbstractFactoryPattern\Product\Meat;
+use AbstractFactoryPattern\Product\Pad;
+use AbstractFactoryPattern\Product\Sauce;
+use AbstractFactoryPattern\Product\Vegetable;
 
 abstract class PizzaAbstractFactory
 {
     /**
-     * @return Product
+     * @return Pad
      */
-    abstract public function createPad(): Product;
+    abstract public function createPad(): Pad;
 
     /**
-     * @return Product
+     * @return Sauce
      */
-    abstract public function createSauce(): Product;
+    abstract public function createSauce(): Sauce;
 
     /**
      * @param string|null $vegetableName
-     * @return Product
+     * @return Vegetable
      */
-    abstract public function createVegetable(string $vegetableName = null): Product;
+    abstract public function createVegetable(string $vegetableName = null): Vegetable;
 
     /**
-     * @return Product
+     * @return Meat
      */
-    abstract public function createMeat(): Product;
+    abstract public function createMeat(): Meat;
 }

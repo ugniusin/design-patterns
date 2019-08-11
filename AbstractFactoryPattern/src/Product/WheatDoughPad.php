@@ -2,7 +2,7 @@
 
 namespace AbstractFactoryPattern\Product;
 
-class WheatDoughPad extends Product
+class WheatDoughPad extends Pad
 {
     /**
      * @return float
