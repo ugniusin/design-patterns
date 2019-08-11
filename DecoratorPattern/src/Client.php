@@ -2,7 +2,6 @@
 
 namespace DecoratorPattern;
 
-
 use DecoratorPattern\Beverage\Coffee;
 use DecoratorPattern\AddonDecorators\MilkDecorator;
 use DecoratorPattern\AddonDecorators\ChocolateDecorator;
