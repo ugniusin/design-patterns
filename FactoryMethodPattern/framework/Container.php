@@ -2,9 +2,9 @@
 
 namespace FactoryMethodPatternFramework;
 
-use FactoryMethodPattern\BalancedAnimalFactory;
+use FactoryMethodPattern\AnimalFactory\BalancedAnimalFactory;
 use FactoryMethodPattern\Client;
-use FactoryMethodPattern\RandomAnimalFactory;
+use FactoryMethodPattern\AnimalFactory\RandomAnimalFactory;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Reference;
 

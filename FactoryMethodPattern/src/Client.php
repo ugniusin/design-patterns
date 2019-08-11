@@ -2,6 +2,9 @@
 
 namespace FactoryMethodPattern;
 
+use FactoryMethodPattern\AnimalFactory\BalancedAnimalFactory;
+use FactoryMethodPattern\AnimalFactory\RandomAnimalFactory;
+
 class Client
 {
     /** @var RandomAnimalFactory */

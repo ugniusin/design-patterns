@@ -1,6 +1,6 @@
 <?php
 
-namespace FactoryMethodPattern;
+namespace FactoryMethodPattern\AnimalFactory;
 
 use FactoryMethodPattern\Animal\Animal;
 

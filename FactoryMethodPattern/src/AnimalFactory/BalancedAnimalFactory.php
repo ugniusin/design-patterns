@@ -1,14 +1,16 @@
 <?php
 
-namespace FactoryMethodPattern;
+namespace FactoryMethodPattern\AnimalFactory;
 
 use FactoryMethodPattern\Animal\Animal;
 use FactoryMethodPattern\Animal\Cat;
 use FactoryMethodPattern\Animal\Dog;
 use FactoryMethodPattern\Animal\Duck;
 
-class RandomAnimalFactory extends AnimalFactory
+class BalancedAnimalFactory extends AnimalFactory
 {
+    private $lastAnimalIndex = 0;
+
     /**
      * @return Animal
      * @throws \Exception
@@ -21,8 +23,10 @@ class RandomAnimalFactory extends AnimalFactory
             Duck::class,
         ];
 
-        $random = random_int(1, \count($possibleAnimals));
+        $animal = new $possibleAnimals[$this->lastAnimalIndex % \count($possibleAnimals)];
 
-        return new $possibleAnimals[--$random];
+        ++$this->lastAnimalIndex;
+
+        return $animal;
     }
 }

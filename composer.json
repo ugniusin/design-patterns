@@ -7,7 +7,9 @@
             "ObserverPattern\\": "ObserverPattern/src/",
             "ObserverPatternFramework\\": "ObserverPattern/framework/",
             "DecoratorPattern\\": "DecoratorPattern/src/",
-            "DecoratorPatternFramework\\": "DecoratorPattern/framework/"
+            "DecoratorPatternFramework\\": "DecoratorPattern/framework/",
+            "FactoryMethodPattern\\": "FactoryMethodPattern/src/",
+            "FactoryMethodPatternFramework\\": "FactoryMethodPattern/framework/"
         }
     },
     "require": {
