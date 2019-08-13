@@ -1,7 +1,7 @@
 # Singleton Design Pattern
 
 ### Drawbacks:
-* Violates **Single Responsibility Principle** by having more than one responsibilities:
+* Violates **Single Responsibility Principle** by having more than one responsibility:
     * The key responsibility of the class by scenario.
     * The responsibility to maintain only one instance.   
 * Makes Unit Testing very hard. No ability to completely isolate classes dependent on singletons.
