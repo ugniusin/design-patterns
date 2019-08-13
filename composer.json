@@ -11,7 +11,9 @@
             "FactoryMethodPattern\\": "FactoryMethodPattern/src/",
             "FactoryMethodPatternFramework\\": "FactoryMethodPattern/framework/",
             "AbstractFactoryPattern\\": "AbstractFactoryPattern/src/",
-            "AbstractFactoryPatternFramework\\": "AbstractFactoryPattern/framework/"
+            "AbstractFactoryPatternFramework\\": "AbstractFactoryPattern/framework/",
+            "SingletonPattern\\": "SingletonPattern/src/",
+            "SingletonPatternFramework\\": "SingletonPattern/framework/"
         }
     },
     "require": {
