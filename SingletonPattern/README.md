@@ -1,5 +1,7 @@
 # Singleton Design Pattern
 
+### Suggestion - don't ever use it.
+
 ### Drawbacks:
 * Violates **Single Responsibility Principle** by having more than one responsibility:
     * The key responsibility of the class by scenario.
