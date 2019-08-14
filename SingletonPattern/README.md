@@ -11,10 +11,7 @@ Also, the global state of stateful singletons is preserved between test cases.
 * Dependency hiding
 * And more... [Singleton Pitfalls](https://www.vojtechruzicka.com/singleton-pattern-pitfalls)
 
-
 ### Intent
 Singleton is a creational design pattern that lets you ensure that a class has only one instance, while providing a global access point to this instance.
-
-
 
 **Source:** [Singleton Pattern](https://refactoring.guru/design-patterns/singleton)
