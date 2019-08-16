@@ -13,7 +13,9 @@
             "AbstractFactoryPattern\\": "AbstractFactoryPattern/src/",
             "AbstractFactoryPatternFramework\\": "AbstractFactoryPattern/framework/",
             "SingletonPattern\\": "SingletonPattern/src/",
-            "SingletonPatternFramework\\": "SingletonPattern/framework/"
+            "SingletonPatternFramework\\": "SingletonPattern/framework/",
+            "CommandPattern\\": "CommandPattern/src/",
+            "CommandPatternFramework\\": "CommandPattern/framework/"
         }
     },
     "require": {
